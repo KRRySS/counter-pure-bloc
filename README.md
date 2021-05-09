@@ -1,4 +1,4 @@
-# counter-pure-bloc
+## Architecture overview
 Very simple example of BLoC architecture pattern without Flutter BLoC dependencies like [flutter_bloc](https://pub.dev/packages/flutter_bloc) (in the result with many boilerplate code) on popular Counter initial app.
 I use [StreamBuilder](https://api.flutter.dev/flutter/widgets/StreamBuilder-class.html), [StreamController](https://api.flutter.dev/flutter/dart-async/StreamController-class.html), [Stream](https://api.flutter.dev/flutter/dart-async/Stream-class.html) and [Sink](https://api.flutter.dev/flutter/dart-core/Sink-class.html) to preparing sample BLoC abstraction and showing how it can works "under the hood" without popular libraries:
 - stream management for events:
@@ -57,3 +57,9 @@ I use [StreamBuilder](https://api.flutter.dev/flutter/widgets/StreamBuilder-clas
   }
 
 ```
+
+
+
+![alt text][architecture]
+
+[architecture]: https://koenig-media.raywenderlich.com/uploads/2020/08/04-BLoC-diagram-1.png "BLoC pattern, resource: https://www.raywenderlich.com/4074597-getting-started-with-the-bloc-pattern"
