@@ -59,6 +59,8 @@ I use [StreamBuilder](https://api.flutter.dev/flutter/widgets/StreamBuilder-clas
 ```
 
 
+<br />
+<br />
 
 ![alt text][architecture]
 
